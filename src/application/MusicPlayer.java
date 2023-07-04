@@ -13,6 +13,10 @@ public class MusicPlayer extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 
+		/* String musicDirectory = "C:/caminho/para/arquivo/musicas";
+        	File directory = new File(musicDirectory);
+        	mainController.loadSongsFromDirectory(directory); */
+
 		Parent root = FXMLLoader.load(getClass().getResource("/view/MainView.fxml"));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
