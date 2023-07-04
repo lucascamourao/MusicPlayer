@@ -196,4 +196,16 @@ public class MainController implements Initializable {
 		running = false;
 		timer.cancel();
 	}
+	/* private void loadSongs() {
+        File directory = new File("Music");
+        File[] files = directory.listFiles();
+
+        if (files != null) {
+            for (File file : files) {
+                songs.add(file);
+            }
+		}
+	} */
+}
+ MainController {
 }
